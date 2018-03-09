@@ -12,7 +12,7 @@
     "php": ">=5.6.0",
     "illuminate/support": "^5.3",
     "illuminate/routing": "^5.3",
-    "jimdo/prometheus_client_php": "dev-master"
+    "jimdo/prometheus_client_php": "^0.9.0"
   },
   "autoload": {
     "psr-4": {
@@ -20,23 +20,6 @@
       "Tests\\": "tests/"
     }
   },
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "jimdo/prometheus_client_php",
-        "version": "dev-master",
-        "source": {
-          "url": "https://github.com/ImSuperlative/prometheus_client_php",
-          "type": "git",
-          "reference": "master"
-        },
-        "autoload": {
-          "classmap": [""]
-        }
-      }
-    }
-  ],
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
