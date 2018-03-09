@@ -22,8 +22,19 @@
   },
   "repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/ImSuperlative/prometheus_client_php"
+      "type": "package",
+      "package": {
+        "name": "jimdo/prometheus_client_php",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/ImSuperlative/prometheus_client_php",
+          "type": "git",
+          "reference": "master"
+        },
+        "autoload": {
+          "classmap": [""]
+        }
+      }
     }
   ],
   "extra": {
