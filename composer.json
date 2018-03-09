@@ -12,14 +12,8 @@
     "php": ">=5.6.0",
     "illuminate/support": "^5.3",
     "illuminate/routing": "^5.3",
-    "jimdo/prometheus_client_php": "dev-master as 0.9.1"
+    "jimdo/prometheus_client_php": "^0.9.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ImSuperlative/prometheus_client_php"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Superbalist\\LaravelPrometheusExporter\\": "src/",
